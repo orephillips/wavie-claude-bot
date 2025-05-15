@@ -1,0 +1,13 @@
+{
+  "name": "walletbalanceservicerequester",
+  "version": "1.0.0",
+  "main": "balance-puller.js",
+  "dependencies": {
+    "@google-cloud/bigquery": "^7.2.0",
+    "@google-cloud/secret-manager": "^5.6.0",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "rate-limiter-flexible": "^5.0.3",
+    "dotenv": "^16.4.5"
+  }
+}
