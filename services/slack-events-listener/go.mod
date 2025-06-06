@@ -1,4 +1,4 @@
-module slack-events-listener
+module github.com/orephillips/wavie-claude-bot/services/slack-events-listener
 
 go 1.21
 

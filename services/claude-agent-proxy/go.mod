@@ -1,4 +1,4 @@
-module claude-agent-proxy
+module github.com/orephillips/wavie-claude-bot/services/claude-agent-proxy
 
 go 1.21
 

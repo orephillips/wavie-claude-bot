@@ -1,4 +1,4 @@
-module broadcast-bot
+module github.com/orephillips/wavie-claude-bot/services/broadcast-bot
 
 go 1.21
 

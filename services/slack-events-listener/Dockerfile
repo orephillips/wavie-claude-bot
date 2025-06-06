@@ -3,8 +3,9 @@ FROM golang:1.21-alpine AS builder
 WORKDIR /app
 COPY go.mod ./
 
-# Initialize go modules and download dependencies
-RUN go mod tidy && go mod download
+# Explicitly install dependencies
+RUN go mod download github.com/kelseyhightower/envconfig@v1.4.0 && \
+    go mod tidy
 
 COPY . .
 RUN CGO_ENABLED=0 GOOS=linux go build -o main .
